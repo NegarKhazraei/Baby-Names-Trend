@@ -17,5 +17,5 @@ The dataset contains baby girl names registered in the U.S. from 1880 to 2019. I
 
 ### Tools
 Google BigQuery: The dataset is imported into Google BigQuery, and SQL is used for data exploration, cleaning, aggregation, and analysis.
-
+[See Here](https://storage.googleapis.com/gwg-content/gdac006/names.zip)
   
