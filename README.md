@@ -80,7 +80,7 @@ There is no data to display.
 
 ---
 
-#### 5.Standardize Name Format
+#### 5. Standardise Name Format
 ```sql
 # Ensure that all names are consistently formatted (e.g., first letter capitalized).
 SELECT Year, 
@@ -94,7 +94,7 @@ FROM `my-project-438016.babyname.names`
 
 ---
 
-#### .Trim Whitespace
+#### 6. Trim Whitespace
 ```
 sql
 # Remove leading and trailing spaces from the Name column to avoid discrepancies.
