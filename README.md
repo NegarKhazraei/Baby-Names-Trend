@@ -110,3 +110,24 @@ FROM `my-project-438016.babyname.names`
 
 ---
 
+### Data Analysis
+
+#### 1. Most Popular Names (Overall & By Year)
+I want to identify the most popular names in the dataset both overall and by year. This will give me a sense of which names are the most frequently used and how trends in naming change over time.
+```sql
+SELECT Year, Name, SUM(Count) AS Total_Count
+FROM my-project-438016.babyname.names
+WHERE Sex='Female' OR Sex='Male'
+GROUP BY Year, Name
+ORDER BY Total_Count DESC
+LIMIT 10;
+```
+
+<img width="511" alt="Screenshot 2024-10-21 at 16 15 32" src="https://github.com/user-attachments/assets/b7edec80-d207-462c-9673-5b10c73a5d9c">
+
+The results show that Michael was the top name in 1961 and remained popular in the following years, with a peak of 9444 occurrences in 1961. While the count gradually declined over the years, the name stayed consistently popular.
+
+---
+
+#### 2. 
+
