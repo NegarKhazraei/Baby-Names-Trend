@@ -13,7 +13,7 @@ The goal of this project is to explore trends, patterns, and insights in baby na
 ---
 
 ### Data Source
-This dataset contains baby names by sex for live births in California, based on information from birth certificates. It includes data from 3,153 rows, with fields for year, sex, rank, name, count, and the date of data revision. The dataset covers names ranked by occurrence, providing insight into popular baby names by year and sex
+This dataset contains baby names by sex for live births in California, based on information from birth certificates. It includes data from 3,153 rows, with fields for year(1960-2022), sex, rank, name, count, and the date of data revision. The dataset covers names ranked by occurrence, providing insight into popular baby names by year and sex
   
 ---
 
@@ -129,5 +129,34 @@ The results show that Michael was the top name in 1961 and remained popular in t
 
 ---
 
-#### 2. 
+#### 2. Names with Largest Growth or Decline
+I want to identify names that have experienced the largest growth or decline in popularity between 1960 and 2022. This analysis highlights names that have seen significant shifts, either becoming more trendy or fading in popularity.
+```sql
+WITH NameGrowth AS (
+  SELECT Name, 
+         SUM(CASE WHEN Year = 2022 THEN Count ELSE 0 END) AS Count_2022,
+         SUM(CASE WHEN Year = 1960 THEN Count ELSE 0 END) AS Count_1960
+  FROM my-project-438016.babyname.names
+  GROUP BY Name
+)
+SELECT Name, 
+       Count_2022, 
+       Count_1960,
+       ((Count_2022 - Count_1960) / NULLIF(Count_1960, 0)) * 100 AS Percentage_Change
+FROM NameGrowth
+WHERE Count_1960 > 0
+ORDER BY Percentage_Change DESC;
+```
+
+#### 2.1. Names with Partial Decline:
+Daniel and James saw a significant but partial decline in popularity:
+#### 2.2. Names with Complete Disappearance:
+Several names, such as Lisa, Susan, Michael, Mary, David, and John, were used frequently in 1960 but dropped to 0 occurrences in 2022. This represents a 100% decline, indicating that these names completely fell out of use in this period.
+
+---
+
+
+
+
+
 
