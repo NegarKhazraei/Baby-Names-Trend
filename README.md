@@ -180,12 +180,23 @@ ORDER BY n.Year;
 - **Mia** appeared as the most popular name in 2016, but only for that year.
 - **Emma** was the most popular name in 2017 and 2018.
 - **Olivia** then became the most popular name in 2019 and has stayed at the top through 2022, holding the top spot for 4 consecutive years.
-##### Key Trends:
-**Emily** and **Sophia** had the longest streaks of popularity (9 and 5 years, respectively).
-**Olivia** is the current reigning name, having held the top spot for the past 4 years.
-
+  
 ---
 
+### Results
+__Most Popular Names:__
+Michael was the top name in 1961, staying popular for years, though its usage declined over time.
+
+__Name Growth & Decline:__
+- Growth: Some names saw a significant rise from 1960 to 2022.
+- Decline: Names like Daniel and James declined but remained in use.
+- Disappearance:  Several names, including Lisa, Susan, Mary, and others, saw a 100% decline. For a complete list of names that disappeared, please refer to the complete dataset.
+- Most Popular (1997-2022): Jessica, Emily, Isabella, Sophia, Mia, Emma, and Olivia led during different years. Olivia has been the most popular since 2019.
+
+__Key Trends:__
+Emily (9 years) and Sophia (5 years) had the longest reigns, while Olivia held the top spot for 4 years.
+
+---
 
 
 
