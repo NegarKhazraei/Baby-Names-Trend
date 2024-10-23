@@ -19,7 +19,6 @@ This dataset contains baby names by sex for live births in California, based on 
 
 ### Tools
 Google BigQuery: The dataset is imported into Google BigQuery, and SQL is used for data exploration, cleaning, aggregation, and analysis.
-[See Here](https://data.ca.gov/dataset/most-popular-baby-names)
 
 ---
 
