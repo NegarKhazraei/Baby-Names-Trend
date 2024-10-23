@@ -173,16 +173,16 @@ ORDER BY n.Year;
 
 ```
 ##### Summary of the Most Popular Female Baby Names (1997 - 2022) based on the code above:
-- --Jessica-- was the most popular name in 1997 and 1998 but lost the top spot by 1999.
-- --Emily-- took over from --Jessica-- and remained the most popular name from 1999 to 2007. She stayed at the top for a full 9 years.
-- --Isabella-- became the most popular in 2008 and held the top position through 2010.
-- --Sophia-- was the leading name from 2011 to 2015, dominating for 5 consecutive years.
-- --Mia-- appeared as the most popular name in 2016, but only for that year.
-- --Emma-- was the most popular name in 2017 and 2018.
-- --Olivia-- then became the most popular name in 2019 and has stayed at the top through 2022, holding the top spot for 4 consecutive years.
+- **Jessica** was the most popular name in 1997 and 1998 but lost the top spot by 1999.
+- **Emily** took over from **Jessica** and remained the most popular name from 1999 to 2007. She stayed at the top for a full 9 years.
+- **Isabella** became the most popular in 2008 and held the top position through 2010.
+- **Sophia** was the leading name from 2011 to 2015, dominating for 5 consecutive years.
+- **Mia** appeared as the most popular name in 2016, but only for that year.
+- **Emma** was the most popular name in 2017 and 2018.
+- **Olivia** then became the most popular name in 2019 and has stayed at the top through 2022, holding the top spot for 4 consecutive years.
 ##### Key Trends:
---Emily-- and --Sophia-- had the longest streaks of popularity (9 and 5 years, respectively).
---Olivia-- is the current reigning name, having held the top spot for the past 4 years.
+**Emily** and **Sophia** had the longest streaks of popularity (9 and 5 years, respectively).
+**Olivia** is the current reigning name, having held the top spot for the past 4 years.
 
 ---
 
