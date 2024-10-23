@@ -190,7 +190,7 @@ Michael was the top name in 1961, staying popular for years, though its usage de
 __Name Growth & Decline:__
 - Growth: Some names saw a significant rise from 1960 to 2022.
 - Decline: Names like Daniel and James declined but remained in use.
-- Disappearance:  Several names, including Lisa, Susan, Mary, and others, saw a 100% decline. For a complete list of names that disappeared, please refer to the complete dataset.
+- Disappearance:  Several names, including Lisa, Susan, Mary, and others, saw a 100% decline. For a complete list of names that disappeared, please refer to the complete dataset. [See Here](https://github.com/NegarKhh/Baby-Names/blob/main/Disappeard%20Names.csv)
 - Most Popular (1997-2022): Jessica, Emily, Isabella, Sophia, Mia, Emma, and Olivia led during different years. Olivia has been the most popular since 2019.
 
 __Key Trends:__
