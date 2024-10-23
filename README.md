@@ -147,6 +147,7 @@ FROM NameGrowth
 WHERE Count_1960 > 0
 ORDER BY Percentage_Change DESC;
 ```
+[See The Result Here](https://github.com/NegarKhh/Baby-Names/blob/main/Disappeard%20Names.csv)
 
 #### 2.1. Names with Partial Decline:
 Daniel and James saw a significant but partial decline in popularity:
@@ -170,8 +171,9 @@ FROM my-project-438016.babyname.names n
 JOIN MaxCounts m ON n.Year = m.Year AND n.Count = m.Max_Count
 WHERE n.Sex = 'Female'
 ORDER BY n.Year;
-
 ```
+[See The Result Here]https://github.com/NegarKhh/Baby-Names/blob/main/Most%20Common%20Names.csv
+
 ##### Summary of the Most Popular Female Baby Names (1997 - 2022) based on the code above:
 - **Jessica** was the most popular name in 1997 and 1998 but lost the top spot by 1999.
 - **Emily** took over from **Jessica** and remained the most popular name from 1999 to 2007. She stayed at the top for a full 9 years.
