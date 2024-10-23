@@ -13,7 +13,7 @@ The goal of this project is to explore trends, patterns, and insights into baby 
 ---
 
 ### Data Source
-This dataset contains baby names by sex for live births in California, based on information from birth certificates. It includes data from 3,153 rows, with fields for the year(1960-2022), sex, rank, name, count, and the date of data revision. The dataset covers names ranked by occurrence, providing insight into popular baby names by year and sex
+This dataset contains baby names by sex for live births in California, based on information from birth certificates. It includes data from 3,153 rows, with fields for the year(1960-2022), sex, rank, name, count, and the date of data revision. The dataset covers names ranked by occurrence, providing insight into popular baby names by year and sex.[See Here](https://data.chhs.ca.gov/dataset/most-popular-baby-names-2005-current)
   
 ---
 
