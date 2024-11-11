@@ -109,7 +109,7 @@ FROM `my-project-438016.babyname.names`
 
 ---
 
-### Data Analysis
+### Exploratory Data Analysis (EDA)
 
 #### 1. Most Popular Names (Overall & By Year)
 I want to identify the most popular names in the dataset both overall and by year. This will give me a sense of which names are the most frequently used and how trends in naming change over time.
